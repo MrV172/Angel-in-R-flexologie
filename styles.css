@@ -1,0 +1,91 @@
+/*Les polices d'écriture*/
+
+*{ font-family: arial; text-align: justify; }
+
+/*Elements princ page*/
+
+body { background-color: white }
+
+#bloc_page { width: 60%; margin: auto; }
+
+h2, h3 { text-transform: uppercase; font-family: serif, Trebuchet MS, arial;}
+
+h4 { color: purple; text-align: center; font-family:comic sans MS; font-size: 1.6em}
+
+
+/*header*/
+
+#titre_principal h1 { text-align: center; font-family: Day Roman, Times New Roman;  font-size: 4em; color: purple; text-shadow: 0px 1px 2px }
+
+#titre_principal { display: flex; flex-direction: column;}
+
+
+
+#logo img { width: 100px ; height: 100px; float: right; }
+
+
+/*nav*/
+
+nav ul { list-style-type: none; display: flex; }
+
+nav li { margin-right: 15px }
+
+nav a { font-size: 1.3em; color: purple; padding-bottom: 3px; text-decoration: none;}
+
+nav a:hover { color: red; border-bottom: 3px solid red }
+
+
+/*bannière*/
+
+#image_bannière { margin-top: 15px; height: 300px; border-radius: 5px; position: relative; box-shadow: 0px 4px 4px #1c1a19; margin-bottom: 25px; }
+
+#image_bannière img { height: 100%; width: 100%}
+
+
+/*le corps*/
+
+section { display: flex; margin-bottom: 20px }
+
+article { margin-right: 20px; flex: 3;}
+
+article p { font-size: 1em }
+
+aside { flex: 1.2; position: relative; background-color: rgb(173,91,255); box-shadow: 0px 2px 5px #1c1a19; border-radius: 5px; padding: 10px; font-size: 0.95em;}
+
+#photoangeline { text-align: center; }
+
+#photoangeline img { border: 1px solid #181818; height: 50%; width: 50%;}
+
+aside img { margin-right: 5px }
+
+aside h2 { text-align: center; }
+
+#photoacc { height: 50%; width: 50%; text-align: center; }
+
+aside a { color: rgb(128,0,255); }
+
+#promo { text-align:center; width: 100%; border: solid 1px;}
+
+.element4, .element5, .element6 { height: 25%; width: 25%; padding-left: 10px; padding-right: 10px; }
+
+.element8, .element9 { width: 25%;  padding-left: 10px; padding-right: 10px; }
+
+.element7 { width: 34%; padding-left: 10px; padding-right: 10px; }
+
+#espacezen { width: 100%; margin-top: 8px }
+
+/*footer*/
+
+footer { display: flex; padding-top: 25px; }
+
+footer p, footer ul { font-size: 0.8em; }
+
+footer h3 { font-size: 1.1em; }
+
+#contact { justify-content: space-between; padding-right: 25px; text-align: center;}
+
+#mesreseauxsoc { justify-content: space-between; padding-left: 25px; }
+
+#mesreseauxsoc ul { list-style-type: none; padding-left: 25px; }
+
+#conteneur { display: flex; justify-content: space-around; }
